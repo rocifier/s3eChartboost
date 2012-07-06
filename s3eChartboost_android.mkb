@@ -1,0 +1,17 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the s3eChartboost extension on android
+platform LINUX
+
+buildtype (SCONS, ARM)
+
+define S3E_ANDROID
+
+options
+{
+    dll
+    output-name="libs/android/libs3eChartboost.so"
+    output-name-debug="libs/android/libs3eChartboost_d.so"
+}
+define S3E_BUILD_EXT
+
+subproject s3eChartboost_build

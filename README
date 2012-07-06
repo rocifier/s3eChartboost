@@ -1,0 +1,9 @@
+Currently this extension only supports android. Feel free to add iOS support! Improvements welcome!
+Released under LGPL (see lgpl.txt).
+
+Note: Only "named" chartboost functions are supported currently, so if you create or cache anything,
+you have to give it a reference name in the function parameters. This can be basically whatever you want.
+
+Ryan O'Connor
+1013 Limited
+ryan@1013games.com

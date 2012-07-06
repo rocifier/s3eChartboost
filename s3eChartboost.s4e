@@ -1,0 +1,34 @@
+#
+#    s3eChartboost: Provides basic marmalade bindings for the cross-promotion
+#                   advertising library library from www.charhoost.com
+#    Copyright (C) 2012 by 1013 Limited.
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Lesser General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#    1013 Limited can be contacted at support@1013games.com
+#
+
+include:
+#include <s3eTypes.h>
+
+functions:
+void s3eChartboostSetAppID(const char* id) run_on_os_thread
+void s3eChartboostSetAppSignature(const char* signature) run_on_os_thread
+void s3eChartboostInstall() run_on_os_thread
+
+void s3eChartboostCacheInterstitial(const char* name) run_on_os_thread
+void s3eChartboostShowInterstitial(const char* name) run_on_os_thread
+
+void s3eChartboostCacheMoreApps() run_on_os_thread
+void s3eChartboostShowMoreApps() run_on_os_thread

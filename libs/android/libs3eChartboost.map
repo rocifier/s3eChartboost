@@ -1,0 +1,459 @@
+Archive member included because of file (symbol)
+
+C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                              release\s3eChartboost_platform.os (s3eEdkThreadRunOnOS)
+
+Discarded input sections
+
+ _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\s3eChartboost_platform.os
+ _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000000        0x0 release\s3eChartboost_platform.os
+ .text          0x00000000        0x0 release\s3eChartboost_platform.os
+ .data          0x00000000        0x0 release\s3eChartboost_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eChartboost_platform.os
+ .text          0x00000000        0x0 release\s3eChartboost.os
+ .data          0x00000000        0x0 release\s3eChartboost.os
+ .bss           0x00000000        0x0 release\s3eChartboost.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eChartboost.os
+ .text          0x00000000        0x0 release\s3eChartboost_register.os
+ .data          0x00000000        0x0 release\s3eChartboost_register.os
+ .bss           0x00000000        0x0 release\s3eChartboost_register.os
+ .text._Z24s3eChartboostRegisterExtv
+                0x00000000        0x0 release\s3eChartboost_register.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eChartboost_register.os
+ .text          0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.extab.text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.exidx.text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.extab.text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.exidx.text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD release\s3eChartboost_platform.os
+LOAD release\s3eChartboost.os
+LOAD release\s3eChartboost_register.os
+LOAD C:\marmalade\6.0\s3e\edk\lib\android\libedk.a
+LOAD C:\marmalade\6.0\s3e\edk\lib\android/libplaceholderplaceholderplaceholderplaceholderplaceholder.so
+LOAD E:\Game Source\android-ndk-r8-windows\android-ndk-r8\platforms\android-9\arch-arm\usr\lib/libc.so
+LOAD E:\Game Source\android-ndk-r8-windows\android-ndk-r8\platforms\android-9\arch-arm\usr\lib/libm.so
+LOAD E:\Game Source\android-ndk-r8-windows\android-ndk-r8\platforms\android-9\arch-arm\usr\lib/liblog.so
+LOAD E:\Game Source\android-ndk-r8-windows\android-ndk-r8\platforms\android-9\arch-arm\usr\lib/libstdc++.so
+LOAD E:/Game Source/android-ndk-r8-windows/android-ndk-r8/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
+                0x000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000d4       0x9c
+ *(.hash)
+ .hash          0x000000d4       0x9c release\s3eChartboost_platform.os
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000170      0x140
+ *(.dynsym)
+ .dynsym        0x00000170      0x140 release\s3eChartboost_platform.os
+
+.dynstr         0x000002b0      0x129
+ *(.dynstr)
+ .dynstr        0x000002b0      0x129 release\s3eChartboost_platform.os
+
+.gnu.version    0x000003da        0x0 load address 0x000003d9
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 release\s3eChartboost_platform.os
+
+.gnu.version_d  0x000003dc        0x0 load address 0x000003d9
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 release\s3eChartboost_platform.os
+
+.gnu.version_r  0x000003dc        0x0 load address 0x000003d9
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 release\s3eChartboost_platform.os
+
+.rel.dyn        0x000003dc       0x48
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000003dc       0x48 release\s3eChartboost_platform.os
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt        0x00000424       0x18
+ *(.rel.plt)
+ .rel.plt       0x00000424       0x18 release\s3eChartboost_platform.os
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt            0x0000043c       0x38
+ *(.plt)
+ .plt           0x0000043c       0x38 release\s3eChartboost_platform.os
+
+.text           0x00000474      0x984
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text._Z31s3eChartboostTerminate_platformv
+                0x00000474        0x4 release\s3eChartboost_platform.os
+                0x00000474                s3eChartboostTerminate_platform()
+ .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00000478       0x38 release\s3eChartboost_platform.os
+                0x00000478                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x000004b0       0x38 release\s3eChartboost_platform.os
+                0x000004b0                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._Z26s3eChartboostInit_platformv
+                0x000004e8      0x2e4 release\s3eChartboost_platform.os
+                0x000004e8                s3eChartboostInit_platform()
+ .text._Z34s3eChartboostShowMoreApps_platformv
+                0x000007cc       0x58 release\s3eChartboost_platform.os
+                0x000007cc                s3eChartboostShowMoreApps_platform()
+ .text._Z35s3eChartboostCacheMoreApps_platformv
+                0x00000824       0x58 release\s3eChartboost_platform.os
+                0x00000824                s3eChartboostCacheMoreApps_platform()
+ .text._Z29s3eChartboostInstall_platformv
+                0x0000087c       0x58 release\s3eChartboost_platform.os
+                0x0000087c                s3eChartboostInstall_platform()
+ .text._Z39s3eChartboostCacheInterstitial_platformPKc
+                0x000008d4       0x7c release\s3eChartboost_platform.os
+                0x000008d4                s3eChartboostCacheInterstitial_platform(char const*)
+ .text._Z38s3eChartboostShowInterstitial_platformPKc
+                0x00000950       0x7c release\s3eChartboost_platform.os
+                0x00000950                s3eChartboostShowInterstitial_platform(char const*)
+ .text._Z37s3eChartboostSetAppSignature_platformPKc
+                0x000009cc       0x7c release\s3eChartboost_platform.os
+                0x000009cc                s3eChartboostSetAppSignature_platform(char const*)
+ .text._Z30s3eChartboostSetAppID_platformPKc
+                0x00000a48       0x7c release\s3eChartboost_platform.os
+                0x00000a48                s3eChartboostSetAppID_platform(char const*)
+ .text._ZL27s3eEdkAndroidFindClass_realPKc
+                0x00000ac4       0xa0 release\s3eChartboost_platform.os
+ .text.s3eChartboostShowMoreApps
+                0x00000b64       0x10 release\s3eChartboost.os
+                0x00000b64                s3eChartboostShowMoreApps
+ .text.s3eChartboostCacheMoreApps
+                0x00000b74       0x10 release\s3eChartboost.os
+                0x00000b74                s3eChartboostCacheMoreApps
+ .text.s3eChartboostShowInterstitial
+                0x00000b84       0x10 release\s3eChartboost.os
+                0x00000b84                s3eChartboostShowInterstitial
+ .text.s3eChartboostCacheInterstitial
+                0x00000b94       0x10 release\s3eChartboost.os
+                0x00000b94                s3eChartboostCacheInterstitial
+ .text.s3eChartboostInstall
+                0x00000ba4       0x10 release\s3eChartboost.os
+                0x00000ba4                s3eChartboostInstall
+ .text.s3eChartboostSetAppSignature
+                0x00000bb4       0x10 release\s3eChartboost.os
+                0x00000bb4                s3eChartboostSetAppSignature
+ .text.s3eChartboostSetAppID
+                0x00000bc4       0x10 release\s3eChartboost.os
+                0x00000bc4                s3eChartboostSetAppID
+ .text._Z22s3eChartboostTerminatev
+                0x00000bd4       0x10 release\s3eChartboost.os
+                0x00000bd4                s3eChartboostTerminate()
+ .text._Z17s3eChartboostInitv
+                0x00000be4       0x10 release\s3eChartboost.os
+                0x00000be4                s3eChartboostInit()
+ .text._ZL30s3eChartboostShowMoreApps_wrapv
+                0x00000bf4       0x20 release\s3eChartboost_register.os
+ .text._ZL31s3eChartboostCacheMoreApps_wrapv
+                0x00000c14       0x20 release\s3eChartboost_register.os
+ .text._ZL34s3eChartboostShowInterstitial_wrapPKc
+                0x00000c34       0x24 release\s3eChartboost_register.os
+ .text._ZL35s3eChartboostCacheInterstitial_wrapPKc
+                0x00000c58       0x24 release\s3eChartboost_register.os
+ .text._ZL25s3eChartboostInstall_wrapv
+                0x00000c7c       0x20 release\s3eChartboost_register.os
+ .text._ZL33s3eChartboostSetAppSignature_wrapPKc
+                0x00000c9c       0x24 release\s3eChartboost_register.os
+ .text._ZL26s3eChartboostSetAppID_wrapPKc
+                0x00000cc0       0x24 release\s3eChartboost_register.os
+ .text.RegisterExt
+                0x00000ce4       0xe4 release\s3eChartboost_register.os
+                0x00000ce4                RegisterExt
+ .text.s3eEdkThreadRunOnOS
+                0x00000dc8       0x30 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000dc8                s3eEdkThreadRunOnOS
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini
+ *(.fini)
+                0x00000df8                PROVIDE (__etext, .)
+                0x00000df8                PROVIDE (_etext, .)
+                0x00000df8                PROVIDE (etext, .)
+
+.rodata         0x00000df8       0xfc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000df8       0xfc release\s3eChartboost_platform.os
+ .rodata.str1.4
+                0x00000000       0x10 release\s3eChartboost_register.os
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00000ef4        0xc
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.s3eEdkThreadRunOnOS
+                0x00000ef4        0xc C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000f00                __exidx_start = .
+
+.ARM.exidx      0x00000f00        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.s3eEdkThreadRunOnOS
+                0x00000f00        0x8 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000f08                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00000f08                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00001000                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00001000       0xa8
+ *(.dynamic)
+ .dynamic       0x00001000       0xa8 release\s3eChartboost_platform.os
+                0x00001000                _DYNAMIC
+                0x000010a8                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.got            0x000010a8       0x3c
+ *(.got.plt)
+ .got.plt       0x000010a8       0x18 release\s3eChartboost_platform.os
+                0x000010a8                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x000010c0       0x24 release\s3eChartboost_platform.os
+
+.data           0x000010e4        0x0
+                0x000010e4                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+
+.data1
+ *(.data1)
+                0x000010e4                _edata = .
+                0x000010e4                PROVIDE (edata, .)
+                0x000010e4                __bss_start = .
+                0x000010e4                __bss_start__ = .
+
+.bss            0x000010e4       0x20
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 release\s3eChartboost_platform.os
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000010e4       0x20 release\s3eChartboost_platform.os
+ *(COMMON)
+                0x00001104                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00001104                _bss_end__ = .
+                0x00001104                __bss_end__ = .
+                0x00001104                . = ALIGN (0x4)
+                0x00001104                . = ALIGN (0x4)
+                0x00001104                __end__ = .
+                0x00001104                _end = .
+                0x00001104                PROVIDE (end, .)
+                0x00001104                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x61
+ *(.comment)
+ .comment       0x00000000       0x12 release\s3eChartboost_platform.os
+ .comment       0x00000012       0x12 release\s3eChartboost.os
+ .comment       0x00000024       0x12 release\s3eChartboost_register.os
+ .comment       0x00000036       0x2b C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(C:\marmalade\6.0\extensions\s3echartboost\libs\android\libs3eChartboost.so elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x28 release\s3eChartboost_platform.os
+ .ARM.attributes
+                0x00000028       0x28 release\s3eChartboost.os
+ .ARM.attributes
+                0x00000050       0x28 release\s3eChartboost_register.os
+ .ARM.attributes
+                0x00000078       0x2c C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)

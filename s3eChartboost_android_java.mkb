@@ -1,0 +1,15 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the java portion of the s3eChartboost extension on android
+platform JAVA
+
+files
+{
+    (source/android)
+    s3eChartboost.java
+}
+
+librarypath "libs/android/chartboost/chartboost.jar"
+librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
+librarypath "$MARMALADE_ROOT/s3e/loader/android/s3e_release.jar"
+
+option output-name=libs/android/s3eChartboost.jar
